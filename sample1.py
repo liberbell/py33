@@ -8,3 +8,7 @@ a = 1 + 1
 print(a)
 
 print(keyword.kwlist)
+
+b = 10 + 10
+c = a - b
+print(b, c)
