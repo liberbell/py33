@@ -20,7 +20,7 @@ a = 1
 a += 1
 print(a)
 a = 100
-a = b
+b = a
 print(a, b)
 a = 1
 print(a, b)
