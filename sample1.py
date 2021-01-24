@@ -43,5 +43,5 @@ a2 = float(a)
 print(a2, type(a2))
 
 a = '100.0'
-a2 = float(a)
+a2 = int(a)
 print(a2, type(a2))
