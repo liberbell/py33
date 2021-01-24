@@ -31,3 +31,4 @@ print(type(a))
 a = 10.1
 a2 = int(a)
 print(a, type(a))
+print(a2, type(a2))
