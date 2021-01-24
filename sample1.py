@@ -37,3 +37,7 @@ a = '1000'
 print(a, type(a))
 a2 = int(a)
 print(a2, type(a2))
+
+a = 10
+a2 = float(a)
+print(a2, type(a2))
