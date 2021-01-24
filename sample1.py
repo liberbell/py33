@@ -24,3 +24,4 @@ b = a
 print(a, b)
 a = 1
 print(a, b)
+print(type(a))
