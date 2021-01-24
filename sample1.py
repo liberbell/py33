@@ -12,3 +12,4 @@ print(keyword.kwlist)
 b = 10 + 10
 c = a - b
 print(b, c)
+print(aaa)
