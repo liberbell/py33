@@ -25,3 +25,5 @@ print(a, b)
 a = 1
 print(a, b)
 print(type(a))
+a = 0.1
+print(type(a))
