@@ -27,3 +27,7 @@ print(a, b)
 print(type(a))
 a = 0.1
 print(type(a))
+
+a = 10.1
+a2 = int(a)
+print(a, type(a))
