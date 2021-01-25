@@ -47,3 +47,6 @@ a2 = float(a)
 a3 = int(a2)
 print(a2, type(a2))
 print(a3, type(a3))
+
+a = 'aa'
+a2 = int(a)
