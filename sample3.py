@@ -12,3 +12,5 @@ print(my_str * 10)
 
 report = '=' * 10 + 'レポート' + '=' * 10
 print(report)
+
+print('hello' * 0)
