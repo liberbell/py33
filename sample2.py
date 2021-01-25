@@ -6,3 +6,4 @@ print(a)
 number = 1
 number_of_string = str(number)
 print(number_of_string)
+print(type(number_of_string))
