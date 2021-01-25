@@ -21,3 +21,6 @@ my_str = 'Hello World'
 print(len(my_str))
 my_str = ''
 print(len(my_str))
+
+my_str = 'Hello World'
+print(dir(my_str))
