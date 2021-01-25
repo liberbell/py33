@@ -24,3 +24,5 @@ print(len(my_str))
 
 my_str = 'Hello World'
 print(dir(my_str))
+print(my_str.title)
+print(my_str.title())
