@@ -16,3 +16,8 @@ print(report)
 print('hello' * 0)
 print('hello' * 1)
 print('hello\tworld')
+
+my_str = 'Hello World'
+print(len(my_str))
+my_str = ''
+print(len(my_str))
