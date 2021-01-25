@@ -10,5 +10,5 @@ print(address)
 my_str = 'hello'
 print(my_str * 10)
 
-report = '=' * 10 + 'レポート' + ''
+report = '=' * 10 + 'レポート' + '=' * 10
 print(report)
