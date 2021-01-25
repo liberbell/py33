@@ -13,3 +13,8 @@ text = '''
         こんにちは
        '''
 print(text)
+text2 = '''\
+    おはよう
+    こんにちは\
+        '''
+print(text2)
