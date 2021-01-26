@@ -38,3 +38,6 @@ print(name.startswith('Tomy'))
 
 print(name.endswith('Joel'))
 print(name.endswith('Mary'))
+
+text = 'Good morning people'
+print(text.find('morning'))
