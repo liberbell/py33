@@ -23,3 +23,7 @@ lang_list = languages.split(',')
 separator = ','
 separator.join(lang_list)
 print(separator.join(lang_list))
+
+poem = 'It was nice day.'
+new_poem = poem.replace('nice', 'bad')
+print(new_poem)
