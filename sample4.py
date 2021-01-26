@@ -17,3 +17,8 @@ print('My name is %s.' % last_name)
 
 languages = 'python,PHP,Ruby,Perl'
 print(languages.split(','))
+
+# languages = 'python,php,Ruby,Perl'
+lang_list = languages.split(',')
+separator = ','
+separator.join(lang_list)
