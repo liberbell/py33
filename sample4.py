@@ -34,3 +34,7 @@ print(text.count('hello'))
 
 name = 'Billy Joel'
 print(name.startswith('Billy'))
+print(name.startswith('Tomy'))
+
+print(name.endswith('Joel'))
+print(name.endswith('Mary'))
