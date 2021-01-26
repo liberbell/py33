@@ -13,4 +13,4 @@ print(fmt.format('a1', 'a2'))
 last_name = 'Jake'
 first_name = 'Calen'
 print(f'{last_name} {first_name}')
-print('My name is %s.', %last_name)
+print('My name is %s.' % last_name)
