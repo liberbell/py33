@@ -28,3 +28,6 @@ poem = 'It was nice day.'
 new_poem = poem.replace('nice', 'bad')
 print(poem)
 print(new_poem)
+
+text = 'hello, hello, helo, hello'
+print(text.count('hello'))
