@@ -31,3 +31,6 @@ print(new_poem)
 
 text = 'hello, hello, helo, hello'
 print(text.count('hello'))
+
+name = 'Billy Joel'
+print(name.startswith('Billy'))
