@@ -9,3 +9,6 @@ print(fmt.format('jake', 'Calen'))
 
 fmt = '{0} {1} {0}'
 print(fmt.format('a1', 'a2'))
+
+last_name = 'Jake'
+first_name = 'Calen'
