@@ -14,3 +14,6 @@ last_name = 'Jake'
 first_name = 'Calen'
 print(f'{last_name} {first_name}')
 print('My name is %s.' % last_name)
+
+languages = 'python,PHP,Ruby,Perl'
+print(languages.split(','))
