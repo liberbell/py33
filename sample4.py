@@ -22,3 +22,4 @@ print(languages.split(','))
 lang_list = languages.split(',')
 separator = ','
 separator.join(lang_list)
+print(separator.join(lang_list))
