@@ -26,4 +26,5 @@ print(separator.join(lang_list))
 
 poem = 'It was nice day.'
 new_poem = poem.replace('nice', 'bad')
+print(poem)
 print(new_poem)
