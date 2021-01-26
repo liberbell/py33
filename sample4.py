@@ -43,4 +43,9 @@ text = 'Good morning people'
 print(text.find('morning'))
 
 print(text.index('people'))
-print(text.index('lady'))
+# print(text.index('lady'))
+
+# print('Biily' in name)
+text = '      Hello      '
+print(text)
+print(text.rstrip())
