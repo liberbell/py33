@@ -12,3 +12,4 @@ print(fmt.format('a1', 'a2'))
 
 last_name = 'Jake'
 first_name = 'Calen'
+f'{last_name} {first_name}'
