@@ -41,3 +41,6 @@ print(name.endswith('Mary'))
 
 text = 'Good morning people'
 print(text.find('morning'))
+
+print(text.index('people'))
+print(text.index('lady'))
