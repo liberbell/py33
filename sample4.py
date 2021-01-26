@@ -48,4 +48,4 @@ print(text.index('people'))
 # print('Biily' in name)
 text = '      Hello      '
 print(text)
-print(text.rstrip())
+print(text.lstrip())
