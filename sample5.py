@@ -4,3 +4,4 @@ print(text[-1])
 
 text_len = len(text)
 print(text_len)
+print(text[text_len-1])
