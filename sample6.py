@@ -20,3 +20,6 @@ my_list.append('Bob')
 print(my_list)
 my_list.append('Eric')
 print(my_list)
+
+my_list[0] = 'Billy'
+print(my_list)
