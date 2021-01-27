@@ -4,3 +4,7 @@ print(my_str)
 print(my_list)
 print(type(my_str))
 print(type(my_list))
+
+my_list = [1, True, False, 'Hello']
+print(type(my_list))
+print(my_list)
