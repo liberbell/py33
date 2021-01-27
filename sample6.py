@@ -8,3 +8,6 @@ print(type(my_list))
 my_list = [1, True, False, 'Hello']
 print(type(my_list))
 print(my_list)
+print(type(my_list[0]))
+print(type(my_list[1]))
+print(type(my_list[3]))
