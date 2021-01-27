@@ -11,3 +11,6 @@ print(my_list)
 print(type(my_list[0]))
 print(type(my_list[1]))
 print(type(my_list[3]))
+
+my_list = list('python')
+print(my_list)
