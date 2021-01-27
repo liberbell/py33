@@ -23,3 +23,8 @@ print(my_list)
 
 my_list[0] = 'Billy'
 print(my_list)
+
+my_list = [1, 2, 3, 4, 5]
+print(my_list)
+my_list[:2] = [-1, -2]
+print(my_list)
