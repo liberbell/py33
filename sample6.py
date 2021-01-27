@@ -14,3 +14,9 @@ print(type(my_list[3]))
 
 my_list = list('python')
 print(my_list)
+
+my_list = []
+my_list.append('Bob')
+print(my_list)
+my_list.append('Eric')
+print(my_list)
