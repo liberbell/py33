@@ -30,3 +30,6 @@ print(numbers.pop())
 my_list = ['a', 'i', 'u']
 my_list.remove('i')
 print(my_list)
+
+numbers = [1, 2, 3]
+print(numbers.index(2))
