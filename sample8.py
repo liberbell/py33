@@ -6,3 +6,6 @@ print(len(numbers))
 print(sum(numbers))
 print(max(numbers))
 print(min(numbers))
+
+numbers.insert(1, 1.5)
+print(numbers)
