@@ -41,3 +41,5 @@ print(numbers.count(1))
 print(numbers.count(8))
 
 parts = ['It', 'is', 'fine', 'day']
+poem = '\n'.join(parts)
+print(poem)
