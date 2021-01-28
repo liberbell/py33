@@ -38,3 +38,6 @@ print(100 in  numbers)
 
 numbers = [1, 1, 2, 4, 1, 2, 1, 5]
 print(numbers.count(1))
+print(numbers.count(8))
+
+parts = ['It', 'is', 'fine', 'day']
