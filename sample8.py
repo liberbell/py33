@@ -12,5 +12,5 @@ print(numbers)
 
 numbers1 = [1, 2, 3]
 numbers2 = [4, 5, 6]
-numbers1.ex(numbers2)
+numbers1.extend(numbers2)
 print(numbers1)
