@@ -33,3 +33,8 @@ print(my_list)
 
 numbers = [1, 2, 3]
 print(numbers.index(2))
+print(1 in numbers)
+print(100 in  numbers)
+
+numbers = [1, 1, 2, 4, 1, 2, 1, 5]
+print(numbers.count(1))
