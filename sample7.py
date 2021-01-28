@@ -16,3 +16,6 @@ print(type(one_tuple))
 my_tuple = 'python', 'PHP', 'Ruby', 'Perl'
 print(my_tuple[0])
 print(my_tuple[1:])
+
+# my_tuple[0] = 'C++'
+my_tuple.append('c')
