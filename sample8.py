@@ -14,3 +14,8 @@ numbers1 = [1, 2, 3]
 numbers2 = [4, 5, 6]
 numbers1.extend(numbers2)
 print(numbers1)
+
+numbers1 = [1, 2, 3]
+numbers2 = [4, 5, 6]
+numbers3 = numbers1 + numbers2
+print(numbers3)
