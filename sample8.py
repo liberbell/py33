@@ -25,3 +25,8 @@ numbers.pop(0)
 print(numbers)
 numbers.pop()
 print(numbers)
+print(numbers.pop())
+
+my_list = ['a', 'i', 'u']
+my_list.remove('i')
+print(my_list)
