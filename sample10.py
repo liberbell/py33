@@ -3,3 +3,5 @@ print(my_list)
 
 score = {'math': 80, 'science': 50}
 print(type(score))
+print(score)
+print(score['math'])
