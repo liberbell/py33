@@ -13,3 +13,8 @@ print(type(name_dict))
 
 a =['ab', 'cd', 'ef']
 print(dict(a))
+
+score = {}
+score['math'] = 80
+print(score)
+print(type(score))
