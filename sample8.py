@@ -47,5 +47,7 @@ print(poem)
 numbers = [5, 1, 3, 3, 5, 2, 8, 9, 4]
 numbers.sort()
 print(numbers)
+numbers.sort(reverse=True)
+print(numbers)
 
 print('after sort')
