@@ -7,3 +7,8 @@ print(all_list)
 
 all_list[0].append(5)
 print(all_list)
+
+all_list = [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+print(all_list)
+all_list[0].append(4)
+print(all_list)
