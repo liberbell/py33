@@ -45,4 +45,7 @@ poem = '\n'.join(parts)
 print(poem)
 
 numbers = [5, 1, 3, 3, 5, 2, 8, 9, 4]
-print(numbers.sort())
+numbers.sort()
+print(numbers)
+
+print('after sort')
