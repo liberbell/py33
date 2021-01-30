@@ -43,3 +43,6 @@ print(numbers.count(8))
 parts = ['It', 'is', 'fine', 'day']
 poem = '\n'.join(parts)
 print(poem)
+
+numbers = [5, 1, 3, 3, 5, 2, 8, 9, 4]
+print(numbers.sort())
