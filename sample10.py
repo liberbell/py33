@@ -10,3 +10,6 @@ names = [['Bob', 'Mary'], ['Jeff', 'Beck']]
 name_dict = dict(names)
 print(name_dict)
 print(type(name_dict))
+
+a =['ab', 'cd', 'ef']
+print(dict(a))
