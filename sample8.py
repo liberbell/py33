@@ -50,4 +50,7 @@ print(numbers)
 numbers.sort(reverse=True)
 print(numbers)
 
+numbers = [5, 1, 3, 3, 5, 2, 8, 9, 4]
+new_numbers = sorted(numbers)
+print(new_numbers)
 print('after sort')
