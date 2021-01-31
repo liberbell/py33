@@ -45,3 +45,7 @@ print(band_members)
 deleted = band_members.pop('guiter')
 print(deleted)
 print(band_members)
+print('drum' in band_members)
+
+base = band_members.setdefault('drum', 'Aaron')
+print(base)
