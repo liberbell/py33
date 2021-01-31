@@ -51,3 +51,6 @@ drum = band_members.setdefault('drum', 'Aaron')
 print(drum)
 guiter = band_members.setdefault('guiter', 'Jeff')
 print(guiter)
+
+print(band_members.keys())
+print(band_members.values())
