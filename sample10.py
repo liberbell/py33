@@ -29,3 +29,6 @@ print(science)
 math = score.get('math')
 print(math)
 print(type(None))
+
+band_members = {'guiter': 'Jeff', 'drum': 'Jhon'}
+new_members = {'Piano': 'Elton', 'Vocal', 'Eric'}
