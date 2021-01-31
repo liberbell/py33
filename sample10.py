@@ -31,4 +31,8 @@ print(math)
 print(type(None))
 
 band_members = {'guiter': 'Jeff', 'drum': 'Jhon'}
-new_members = {'Piano': 'Elton', 'Vocal', 'Eric'}
+new_members = {'Piano': 'Elton', 'Vocal':'Eric'}
+
+band_members.update(new_members)
+print(band_members)
+print(new_members)
