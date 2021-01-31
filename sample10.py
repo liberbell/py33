@@ -41,3 +41,7 @@ band_members = {'guiter': 'Jeff', 'drum': 'Jhon'}
 new_members = {'drum': 'Steven'}
 band_members.update(new_members)
 print(band_members)
+
+deleted = band_members.pop('guiter')
+print(deleted)
+print(band_members)
