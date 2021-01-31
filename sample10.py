@@ -22,3 +22,6 @@ print(type(score))
 score = {}
 science = score.get('science', 'no data')
 print(science)
+score['science'] = 100
+science = score.get('science', 'no data')
+print(science)
