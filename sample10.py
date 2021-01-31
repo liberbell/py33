@@ -28,3 +28,4 @@ print(science)
 
 math = score.get('math')
 print(math)
+print(type(None))
