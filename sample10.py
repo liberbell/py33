@@ -18,3 +18,7 @@ score = {}
 score['math'] = 80
 print(score)
 print(type(score))
+
+score = {}
+science = score.get('science', 'no data')
+print(science)
