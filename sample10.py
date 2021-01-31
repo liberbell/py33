@@ -54,3 +54,4 @@ print(guiter)
 
 print(band_members.keys())
 print(band_members.values())
+print(band_members.items())
