@@ -7,3 +7,4 @@ if 'Ted' in names:
 
 else:
     print('The name not in list.')
+    print('sorry.')
