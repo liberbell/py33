@@ -20,3 +20,5 @@ seq = {'list', 'tuple', 'str'}
 
 print(mutable & seq)
 print(mutable.intersection(seq))
+print(mutable | seq)
+print(imutable - seq)
