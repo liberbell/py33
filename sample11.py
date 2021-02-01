@@ -16,6 +16,6 @@ print(my_set)
 
 mutable = {'list', 'dict', 'set'}
 imutable = {'str', 'number', 'tuple'}
-seq = {'list', 'tuple', 'set'}
+seq = {'list', 'tuple', 'str'}
 
 print(mutable & seq)
