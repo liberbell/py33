@@ -29,3 +29,8 @@ if 1 in numbers and 2 in numbers:
     print('1 and 2 are in the list.')
 else:
     print('out of list number.')
+
+if 101 in numbers or 100 in numbers:
+    print('1 or 100 includes.')
+else:
+    print('other number.')
