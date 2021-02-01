@@ -19,3 +19,4 @@ imutable = {'str', 'number', 'tuple'}
 seq = {'list', 'tuple', 'str'}
 
 print(mutable & seq)
+print(mutable.intersection(seq))
