@@ -13,3 +13,9 @@ print(my_list)
 
 my_set = set(my_list)
 print(my_set)
+
+mutable = {'list', 'dict', 'set'}
+imutable = {'str', 'number', 'tuple'}
+seq = {'list', 'tuple', 'set'}
+
+print(mutable & seq)
