@@ -41,3 +41,6 @@ if not 200 in numbers:
 names =['James', 'Elton', 'Eric']
 if len(names) != 0:
     print('There are some names.')
+
+if names:
+    print('Of course everyone has name.')
