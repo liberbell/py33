@@ -13,3 +13,7 @@ else:
     print('The name not in list.')
     print('sorry.')
 print('End of processing.')
+
+color == 'red'
+if color == 'red':
+    print('Color is red.')
