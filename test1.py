@@ -14,6 +14,6 @@ else:
     print('sorry.')
 print('End of processing.')
 
-color == 'red'
+color = 'red'
 if color == 'red':
     print('Color is red.')
