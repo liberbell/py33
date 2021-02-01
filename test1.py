@@ -44,3 +44,4 @@ if len(names) != 0:
 
 if names:
     print('Of course everyone has name.')
+    print('first name is ' + names[0])
