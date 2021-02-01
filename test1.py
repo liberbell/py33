@@ -37,3 +37,7 @@ else:
 
 if not 200 in numbers:
     print('200 not includes.')
+
+names =['James', 'Elton', 'Eric']
+if len(names) != 0:
+    print('There are some names.')
