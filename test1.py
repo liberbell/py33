@@ -14,6 +14,12 @@ else:
     print('sorry.')
 print('End of processing.')
 
-color = 'red'
+color = 'white'
 if color == 'red':
     print('Color is red.')
+elif color == 'blue':
+    print('Color is blue')
+elif color == 'white':
+    print('Color is white')
+else:
+    print('Color is other color.')
