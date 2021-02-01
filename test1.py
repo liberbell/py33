@@ -4,3 +4,6 @@ print(result)
 names = ['James', 'Bob', 'Sting']
 if 'Bob' in names:
     print('The names included.')
+
+else:
+    print('The name not in list.')
