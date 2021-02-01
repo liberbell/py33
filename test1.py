@@ -34,3 +34,6 @@ if 101 in numbers or 100 in numbers:
     print('1 or 100 includes.')
 else:
     print('other number.')
+
+if not 200 in numbers:
+    print('200 not includes.')
