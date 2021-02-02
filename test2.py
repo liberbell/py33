@@ -19,3 +19,7 @@ for part in band_members:
 
 for name in band_members.values():
     print(name)
+
+for key, value in band_members.items():
+    message = '{0} is {1}.'.format(key, value)
+    print(message)
