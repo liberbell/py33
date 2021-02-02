@@ -23,3 +23,7 @@ for name in band_members.values():
 for key, value in band_members.items():
     message = '{0} is {1}.'.format(key, value)
     print(message)
+
+my_tuple = (1, 2)
+a, b = my_tuple
+print(a, b)
