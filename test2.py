@@ -27,3 +27,12 @@ for key, value in band_members.items():
 my_tuple = (1, 2)
 a, b = my_tuple
 print(a, b)
+
+items = [
+    ['guiter', 'Eric'],
+    ['base', 'Paul'],
+    ['vocal', 'Bob']
+    ]
+
+for part, name in items:
+    print(part, name)
