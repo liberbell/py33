@@ -5,7 +5,9 @@
 # print(my_list)
 
 names = ['Eric', 'Bob', 'Elton']
+index = 0
 for name in names:
-    index = ...
+    # index = ...
     message = '{0} is {1}th.'.format(name, index)
     print(message)
+    index += 1
