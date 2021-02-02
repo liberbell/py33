@@ -16,3 +16,6 @@ for part in band_members:
     name = band_members[part]
     result = '{0} is {1}'.format(part, name)
     print(result)
+
+for name in band_members.values():
+    print(name)
