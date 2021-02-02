@@ -1,2 +1,2 @@
-for i in range(100):
+for i in range(1, 101):
     print('value is {0}'.format(i))
