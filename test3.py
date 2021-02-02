@@ -3,3 +3,8 @@
 
 my_list = list(range(1, 101))
 print(my_list)
+
+names = ['Eric', 'Bob', 'Elton']
+for name in names:
+    index = ...
+    message = '{0} is {1}th.'.format(name, index)
