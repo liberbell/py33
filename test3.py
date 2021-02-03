@@ -17,4 +17,3 @@ for index, name in enumerate(names):
     # index = ...
     message = '{0} is {1}th.'.format(name, index)
     print(message)
-    index += 1
