@@ -1,4 +1,4 @@
-for i in range(30):
+for i in range(31):
     if i % 15 == 0:
         print('fizz buzz')
     elif i % 5 == 0:
