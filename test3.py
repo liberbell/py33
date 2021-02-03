@@ -23,3 +23,4 @@ drinks = ['coffee', 'beer', 'wine']
 
 for food, drink in zip(foods, drinks):
     print(food)
+    print(drink)
