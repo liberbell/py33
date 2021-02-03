@@ -22,6 +22,14 @@ foods = ['apple', 'baked pie', 'chocolate']
 drinks = ['coffee', 'beer', 'wine']
 
 for food, drink in zip(foods, drinks):
-    print(food)
-    print(drink)
+    # print(food)
+    # print(drink)
+    print(food, drink)
+
+foods = ['apple', 'baked pie', 'chocolate']
+drinks = ['coffee', 'beer']
+
+for food, drink in zip(foods, drinks):
+    # print(food)
+    # print(drink)
     print(food, drink)
