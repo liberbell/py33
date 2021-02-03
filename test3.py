@@ -5,15 +5,21 @@
 # print(my_list)
 
 names = ['Eric', 'Bob', 'Elton']
-index = 0
-for name in names:
-    # index = ...
-    message = '{0} is {1}th.'.format(name, index)
-    print(message)
-    index += 1
+# index = 0
+# for name in names:
+#     # index = ...
+#     message = '{0} is {1}th.'.format(name, index)
+#     print(message)
+#     index += 1
 
 
 for index, name in enumerate(names):
     # index = ...
     message = '{0} is {1}th.'.format(name, index)
     print(message)
+
+foods = ['apple', 'baked pie', 'chocolate']
+drinks = ['coffee', 'beer', 'wine']
+
+for food, drink in zip(foods, drinks):
+    print(food)
