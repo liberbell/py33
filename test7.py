@@ -5,3 +5,6 @@ print(squares)
 words = ['python', 'django', 'tkinter']
 upper_words = [word.upper() for word in words]
 print(upper_words)
+
+one_word = [char for word in words]
+print(one_word)
