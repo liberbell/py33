@@ -8,3 +8,5 @@ while flag:
     user_input = input()
     if user_input == 'exit':
         flag = False
+    else:
+        print('input :', user_input)
