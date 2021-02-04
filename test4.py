@@ -20,4 +20,4 @@ for i in range(1, 101):
     if message:
         print(message, end=' ')
     else:
-        print(i)
+        print(i, end=' ')
