@@ -19,8 +19,8 @@ names = ['JamesBrown', 'EltonJohn', 'JeffBeck']
 #     print('no body there.')
 
 for name in names:
-    if name.endswith('Beck')
-    print('We found it.')
-    break
+    if name.endswith('Beck'):
+        print('We found it.')
+        break
 else:
     print('no such guy.')
