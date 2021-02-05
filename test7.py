@@ -6,5 +6,5 @@ words = ['python', 'django', 'tkinter']
 upper_words = [word.upper() for word in words]
 print(upper_words)
 
-one_word = [char for word in words]
+one_word = [char for word in words for char word]
 print(one_word)
