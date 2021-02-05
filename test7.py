@@ -8,3 +8,6 @@ print(upper_words)
 
 one_word = [char for word in words for char in word]
 print(one_word)
+
+even_numbers = [x for x in range(1, 11) if x % 2 == 0]
+print(even_numbers)
