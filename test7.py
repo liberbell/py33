@@ -11,3 +11,9 @@ print(one_word)
 
 even_numbers = [x for x in range(1, 11) if x % 2 == 0]
 print(even_numbers)
+
+odd_numbers = [x for x in range(1, 11) if x % 2 == 1]
+print(odd_numbers)
+
+table = [[] for y in range(1, 10)]
+print(table)
