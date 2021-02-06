@@ -2,7 +2,7 @@
 # hello
 # good evening'''
 
-test = 'added'
+text = 'added'
 
 file = open('hello.txt', 'a', encoding='utf-8')
 file.write(text)
