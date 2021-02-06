@@ -1,7 +1,9 @@
-text = '''good morning
-hello
-good evening'''
+# text = '''good morning
+# hello
+# good evening'''
 
-file = open('hello.txt', 'w', encoding='utf-8')
+test = 'added'
+
+file = open('hello.txt', 'a', encoding='utf-8')
 file.write(text)
 file.close()
