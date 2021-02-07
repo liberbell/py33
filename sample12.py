@@ -16,4 +16,9 @@ def check_name(name):
         return False
 
 name= input('name?',)
-print(check_name(name))
+result = check_name(name)
+
+if result == True:
+    print('name is correct.')
+else:
+    print('name is incorrect.')
