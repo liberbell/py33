@@ -17,7 +17,7 @@ Goody
 Eveny'''
 
 with open('hello3.txt', 'w', encoding='cp932') as file:
-    file.write()
+    file.write(text)
 
 with open('hello3.txt', 'r', encoding='utf-8') as file:
     for line in file:
