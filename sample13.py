@@ -1,4 +1,4 @@
 def hello(name='nemo'):
     print('Hello ', name)
 
-hello()
+hello('sam')
