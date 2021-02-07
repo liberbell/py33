@@ -18,7 +18,7 @@ def check_name(name):
 name= input('name?',)
 result = check_name(name)
 
-if result == True:
+if result:
     print('name is correct.')
 else:
-    print('name is incorrect.')
+    print('name is too short.')
