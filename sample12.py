@@ -8,3 +8,12 @@ def helloto(name):
     print(message)
 
 helloto('Been')
+
+def check_name(name):
+    if len(name) >= 6:
+        return True
+    else:
+        return False
+
+name= input('name?',)
+print(check_name(name))
