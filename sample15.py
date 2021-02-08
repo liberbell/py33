@@ -19,4 +19,5 @@ def say_hello2():
     print('hello')
 
 say_hello2 = decorator(say_hello2)
+@decorator
 say_hello2()
