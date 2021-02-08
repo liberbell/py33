@@ -4,7 +4,7 @@ def hello(text, name='nemo'):
 hello('bye')
 
 def somehello(*args, **kwargs):
-    print(args)
+    print(args, kwargs)
 
 somehello()
 somehello('hi', a=1)
