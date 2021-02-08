@@ -3,7 +3,7 @@ def debug(function):
         result = function(*args, **kwargs)
         print(function, __name__, args, kwargs, result)
         return result
-    return debug
+    return _debug
 
 @debug
 def say_hello():
