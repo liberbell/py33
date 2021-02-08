@@ -9,3 +9,11 @@ def test():
 print(num)
 test()
 print(num)
+
+num = [1]
+
+def test1():
+    num[0] = 100
+    print(num[0])
+
+print(num[0])
