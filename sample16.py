@@ -6,3 +6,5 @@ def make_squares(n):
 
 squares = make_squares(10)
 print(squares)
+for i in squares:
+    print(i)
