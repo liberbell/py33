@@ -7,3 +7,4 @@ def test():
 
 print(num)
 test()
+print(num)
