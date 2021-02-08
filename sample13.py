@@ -12,3 +12,6 @@ somehello('hi', 'hello', a=1, b=2, c=3)
 
 def hi(text, *, name='nemo'):
     print(text, name)
+
+hi('hi')
+hi('hello', name='bob')
