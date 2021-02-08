@@ -17,3 +17,5 @@ def decorator(function):
 
 def say_hello2():
     print('hello')
+
+say_hello2()
