@@ -3,8 +3,9 @@ def hello(text, name='nemo'):
 
 hello('bye')
 
-def somehello(*args):
+def somehello(*args, **kwargs):
     print(args)
 
-somehello('hi')
-somehello('hi', 'hello')
+somehello()
+somehello('hi', a=1)
+somehello('hi', 'hello', a=1, b=2, c=3)
