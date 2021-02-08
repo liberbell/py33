@@ -10,3 +10,10 @@ def say_hello():
     print('hello')
 
 say_hello()
+
+def decorator(function):
+    print('decorator')
+    return function
+
+def say_hello2():
+    print('hello')
