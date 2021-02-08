@@ -3,5 +3,5 @@ def create_int_list(numbers=[]):
         numbers.append(i)
     return numbers
 
-numbers = create_int_list()
+numbers = create_int_list([1,2,3])
 print(numbers)
