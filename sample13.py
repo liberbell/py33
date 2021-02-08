@@ -9,3 +9,6 @@ def somehello(*args, **kwargs):
 somehello()
 somehello('hi', a=1)
 somehello('hi', 'hello', a=1, b=2, c=3)
+
+def hi(text, *, name='nemo'):
+    print(text, name)
