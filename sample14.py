@@ -6,7 +6,7 @@ def create_int_list(numbers=[]):
 numbers = create_int_list()
 print(numbers)
 
-numbers2 = create_int_list(])
+numbers2 = create_int_list()
 print(numbers2)
 
 numbers3 = create_int_list()
