@@ -15,3 +15,12 @@
 # squares = make_squares2(10)
 # for i in squares:
 #     print(i)
+
+def my_range(start, end, step):
+    current_number = start
+
+    while current_number < end:
+        yield current_number
+        current_number += step
+
+print(my_range(1, 10, 2))
