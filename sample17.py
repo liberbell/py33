@@ -5,7 +5,7 @@ def my_sort(string):
     return string[-1]
 
 my_list = ['python', 'django', 'tkinter', 'requests', 'kivy']
-my_list.sort()
+my_list.sort(key=my_sort)
 print(my_list)
 
 print(my_sort(my_list))
