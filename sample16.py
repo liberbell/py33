@@ -25,5 +25,5 @@ def my_range(start, end, step):
 
 # print(my_range(1, 10, 2))
 
-for i in my_range(1, 10, 2):
+for i in my_range(1, 10, 0.2):
     print(i)
