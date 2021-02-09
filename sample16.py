@@ -23,4 +23,7 @@ def my_range(start, end, step):
         yield current_number
         current_number += step
 
-print(my_range(1, 10, 2))
+# print(my_range(1, 10, 2))
+
+for i in my_range(1, 10, 2):
+    print(i)
