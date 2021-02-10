@@ -18,3 +18,7 @@ my_lists.sort()
 print(my_lists)
 my_lists.sort(key=lambda tpl:tpl[1])
 print(my_lists)
+
+numbers = [1, 2, 3, 4, 5]
+for num in map(lambda num:num**2, numbers):
+    print(num)
