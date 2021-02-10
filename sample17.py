@@ -16,5 +16,5 @@ print(my_sort(my_list))
 my_lists = [('beans', 30), ('coffee', 12), ('chicken', 45), ('potate', 2)]
 my_lists.sort()
 print(my_lists)
-my_lists.sort(key=price_sort)
+my_lists.sort(key=lambda tpl:tpl[1])
 print(my_lists)
