@@ -35,6 +35,7 @@
 
 class Student:
     def __init__(self, name):
-        self.name = 'name'
+        self.name = name
 
 a = Student('Bob')
+print(a.name)
