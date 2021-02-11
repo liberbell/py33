@@ -25,3 +25,4 @@ for num in map(lambda num:num**2, numbers):
 
 for num in filter(lambda num:num%2 == 0, numbers):
     print(num)
+
