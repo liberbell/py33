@@ -34,6 +34,7 @@
 # print(Bob_science)
 
 class Student:
-    pass
+    def __init__(self, name):
+        self.name = 'name'
 
-a = Student()
+a = Student('Bob')
