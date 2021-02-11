@@ -33,6 +33,8 @@
 # Bob_science = get_score('Bob', 'math')
 # print(Bob_science)
 
+members = {}
+
 class Student:
     def __init__(self, name):
         self.name = name
