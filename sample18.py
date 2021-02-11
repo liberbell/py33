@@ -46,10 +46,11 @@ class Student:
     def get_score(self, subject_name):
         return self.score.get(subject_name, 'not yet')
 
-Bob = Student('Bob')
-Bob.add_score('science', 82)
-print(Bob.score)
+# Bob = Student('Bob')
+# Bob.add_score('science', 82)
+# print(Bob.score)
 
-Eric = Student('Eric')
-Eric.add_score('science', 40)
-print(Eric.score)
+# Eric = Student('Eric')
+# Eric.add_score('science', 40)
+# print(Eric.score)
+
