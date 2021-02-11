@@ -12,7 +12,7 @@ class Monster(Character):
         self.HP = 20
 
     def show_profile(self):
-        profile = 'name:{0} type:Monster'.format(self.name, self.HP)
+        profile = 'name:{0} type:Monster HP:{1}'.format(self.name, self.HP)
         print(profile)
 
 char_a = Character('CHAR A')
