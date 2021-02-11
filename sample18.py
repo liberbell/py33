@@ -27,3 +27,8 @@ def get_score(name, subject):
     point = student.get(subject)
     if not point:
         return 'not yet the subject'
+    return point
+
+add_score('Bob', 'science', 88)
+Bob_science = get_score('bob', 'science')
+print(Bob_science)
