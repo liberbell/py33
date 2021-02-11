@@ -18,3 +18,12 @@ members = {}
 
 def add_score(name, subject, point):
     student = members.setdefault(name, {})
+    student[subject] = point
+
+def get_score(name, subject):
+    student = members.get(name)
+    if not student:
+        return 'nobody'
+    point = student.get(subject)
+    if not point:
+        return 'not yet the subject'
