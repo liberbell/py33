@@ -7,6 +7,9 @@ class Character:
         print(profile)
 
 class Monster(Character):
+    def __init__(self, HP):
+        self.HP = HP
+
     def show_profile(self):
         profile = 'name:{0} type:Monster'.format(self.name)
         print(profile)
