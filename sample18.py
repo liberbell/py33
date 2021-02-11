@@ -30,5 +30,5 @@ def get_score(name, subject):
     return point
 
 add_score('Bob', 'science', 88)
-Bob_science = get_score('bob', 'science')
+Bob_science = get_score('Bob', 'math')
 print(Bob_science)
