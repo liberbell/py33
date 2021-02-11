@@ -54,3 +54,6 @@ class Student:
 # Eric.add_score('science', 40)
 # print(Eric.score)
 
+members['Bob'] = Student('Bob')
+members['Eric'] = Student('Eric')
+members['Chick'] = Student('Chick')
