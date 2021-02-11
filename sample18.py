@@ -44,5 +44,7 @@ class Student:
     def get_score(self, subject_name):
         return self.score.get(subject_name, 'not yet')
 
-a = Student('Bob')
-print(a.name)
+Bob = Student('Bob')
+Bob.add_score('science', 82)
+print(Bob.score)
+
