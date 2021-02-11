@@ -5,7 +5,7 @@ print(type([1]))
 members = {}
 
 def add_score(name, point):
-    membersname = point
+    members[name] = point
 
 def get_score(name):
     return members.get(name, 'nobody')
