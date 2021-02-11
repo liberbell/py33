@@ -3,7 +3,7 @@ class Character:
         self.name = name
 
     def show_profile(self):
-        profile = 'name:{0} type:{1}'.format(self, name)
+        profile = 'name:{0} type:{1}'.format(self.name)
         print(profile)
 
 class Monster(Character):
