@@ -48,3 +48,6 @@ Bob = Student('Bob')
 Bob.add_score('science', 82)
 print(Bob.score)
 
+Eric = Student('Eric')
+Eric.add_score('science', 40)
+print(Eric.score)
