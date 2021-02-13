@@ -14,7 +14,12 @@ class B():
 # print(B.number)
 # print(A.number)
 
-a = A()
-a2 = A()
-print(a.number)
-print(a2.number)
+# a = A()
+# a2 = A()
+# print(a.number)
+# print(a2.number)
+
+b1 = B()
+b2 = B()
+print(b1.number)
+print(b2.number)
