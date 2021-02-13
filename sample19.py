@@ -9,7 +9,7 @@ class Character:
 class Monster(Character):
     def __init__(self, name):
         super().__init__(name)
-        self.name = name
+        # self.name = name
         self.HP = 20
 
     def show_profile(self):
