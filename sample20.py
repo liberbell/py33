@@ -6,7 +6,7 @@ class B():
     number = 10
 
 a = A()
-print(a)
+print(a.number)
 
 b = B()
-print(b)
+print(b.number)
