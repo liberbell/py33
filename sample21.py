@@ -3,4 +3,4 @@ class A:
         self.__value = 1
 
 a = A()
-print(a.__value)
+print(a._A__value)
