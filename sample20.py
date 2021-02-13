@@ -5,8 +5,11 @@ class A():
 class B():
     number = 10
 
-a = A()
-print(a.number)
+# a = A()
+# print(a.number)
 
-b = B()
-print(b.number)
+# b = B()
+# print(b.number)
+
+print(A.number)
+print(B.number)
