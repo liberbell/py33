@@ -11,5 +11,5 @@ class B():
 # b = B()
 # print(b.number)
 
-print(A.number)
 print(B.number)
+print(A.number)
