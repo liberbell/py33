@@ -7,7 +7,7 @@
 
 class A:
     def __init__(self):
-        self.value = 1
+        self.__value = 1
 
 class B(A):
     def __init__(self, name):
