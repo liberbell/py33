@@ -3,3 +3,4 @@ class Person():
         self.name = name
 
 person = Person('sam')
+print(person.name)
