@@ -21,6 +21,8 @@ class B():
 
 b1 = B()
 b2 = B()
+B.number = 100
 b1.number = 5
+print(B.number)
 print(b1.number)
 print(b2.number)
