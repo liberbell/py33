@@ -18,3 +18,6 @@ class Person:
         if not value:
             value = 'nemo'
         self._name = value
+
+person = Person('')
+print(person.name)
