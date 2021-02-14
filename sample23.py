@@ -28,7 +28,8 @@
 # print(a[0])
 
 class A:
-    pass
+    def __str__(self):
+        return 'A'
 
 a = A()
 print(a)
