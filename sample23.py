@@ -6,3 +6,4 @@ class A:
         return 10
 
 a = A()
+print(len(a))
