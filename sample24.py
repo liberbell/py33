@@ -1,4 +1,7 @@
-from calc import add as c
+from calc import add
 
-result = c(10, 20)
+def add(a, b):
+    return a + b + 10
+
+result = add(10, 20)
 print(result)
