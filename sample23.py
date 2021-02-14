@@ -1,6 +1,6 @@
 class A:
     def __init__(self):
-        self.count = 
+        self.count = 1
 
     def __len__(self):
         return 10
