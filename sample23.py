@@ -16,4 +16,6 @@ class A:
         return current
 
 a = A()
-print(len(a))
+# print(len(a)
+for count in a:
+    print(count)
