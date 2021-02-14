@@ -1,4 +1,4 @@
-import calc
+from calc import add
 
-result = calc.add(10, 20)
+result = add(10, 20)
 print(result)
