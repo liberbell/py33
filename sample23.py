@@ -28,8 +28,11 @@
 # print(a[0])
 
 class A:
+    def __init__(self):
+        self.name = 'type1'
+
     def __str__(self):
-        return 'A'
+        return self.name
 
 a = A()
 print(a)
