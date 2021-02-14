@@ -1,6 +1,16 @@
-class Person():
+# class Person():
+#     def __init__(self, name):
+#         self.name = name
+
+# person = Person('')
+# print(person.name)
+
+class Person:
     def __init__(self, name):
         self.name = name
+    
+    @property
+    def name(self):
+        return self._name
 
-person = Person('sam')
-print(person.name)
+    @name.setter
