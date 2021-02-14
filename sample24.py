@@ -6,5 +6,9 @@
 # result = add(10, 20)
 # print(result)
 
-str = 'abcde'
-print(str('aa'))
+# str = 'abcde'
+# print(str('aa'))
+
+from calc import *
+result = add(10, 20)
+print(result)
