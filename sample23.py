@@ -20,9 +20,15 @@
 # for count in a:
 #     print(count)
 
+# class A:
+#     def __getitem__(self, key):
+#         return key
+
+# a = A()
+# print(a[0])
+
 class A:
-    def __getitem__(self, key):
-        return key
+    pass
 
 a = A()
-print(a[0])
+print(a)
