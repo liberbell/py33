@@ -14,3 +14,7 @@ class Person:
         return self._name
 
     @name.setter
+    def name(self, value):
+        if not value:
+            value = 'nemo'
+        self._name = value
