@@ -1,0 +1,1 @@
+your_input = input('Enter a number: ')
