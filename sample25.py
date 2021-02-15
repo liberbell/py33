@@ -1,4 +1,4 @@
-from calc import add
+import calc
 
-result = add.execute(10, 20)
+result = calc.execute(10, 20)
 print(result)
