@@ -1,4 +1,4 @@
 import requests
 
-res = requests.get('https://torina.top')
+res = requests.get('http://torina.top')
 print(res.text)
