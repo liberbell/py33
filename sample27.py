@@ -8,4 +8,5 @@ except FileExistsError:
 else:
     file.write('hello')
 finally:
-    file.close()
+    if file is not None:
+        file.close()
