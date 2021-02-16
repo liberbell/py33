@@ -1,4 +1,4 @@
 import requests
 
-res = requests.get('http://torina.top')
+res = requests.get('https://blog.narito.ninja/')
 print(res.text)
